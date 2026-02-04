@@ -78,3 +78,5 @@ Il est volontairement **simple, lisible et déployable rapidement**, comme atten
 ### 1. Installer les dépendances
 ```bash
 pip install streamlit opencv-python numpy pandas
+
+merciiii
