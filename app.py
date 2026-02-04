@@ -373,3 +373,9 @@ with tab2:
             if st.button("✅ Appliquer ces seuils à l’inspection"):
                 st.session_state["thresholds"] = new_th
                 st.success("Seuils appliqués (tab Inspection).")
+                
+    st.set_page_config(
+    page_title="Inspection Qualité – OK / NOK",
+    page_icon="🧪",  # emoji OU image
+    layout="wide"
+)
